@@ -18,11 +18,11 @@ function calc () {
     console.log(result);
 
     if (resultCalc) {
-        result.textContent =  parseInt(resultCalc);
+        result.textContent =  parseInt(resultCalc) + '%';
     }
 
     else if ( isNaN(resultCalc)) {
-        result.textContent = '0'
+        result.textContent = '0%'
     }
     
 }
